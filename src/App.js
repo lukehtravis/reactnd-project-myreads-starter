@@ -37,6 +37,7 @@ class BooksApp extends React.Component {
               <ol className="books-grid"></ol>
             </div>
           </div>
+        // Start Render of Main Page
         ) : (
           <div className="list-books">
             <div className="list-books-title">
