@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 
 class Shelf extends Component {
   static propTypes = {
-    shelves: PropTypes.array
+    shelvesProp: PropTypes.array
   }
 
   render() {
+    const shelvesProp = this.props
     return (
       {this.props.shelvesProp.map((shelf) => (
         <div className="bookshelf">
