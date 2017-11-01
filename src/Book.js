@@ -1,4 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+
+class Books extends Component {
+  render() {
+    return (
+
+    )
+  }
+}
+
+export default Books
+
 // import * as BooksAPI from './BooksAPI'
 /*
 <li>
