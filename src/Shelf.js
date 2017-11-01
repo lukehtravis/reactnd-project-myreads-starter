@@ -7,7 +7,6 @@ class Shelf extends Component {
   }
 
   render() {
-    const shelvesProp = this.props
     return (
       {shelvesProp.map((shelf) => (
         <div className="bookshelf">
