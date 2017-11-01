@@ -5,7 +5,7 @@ class Shelf extends Component {
 
   render() {
     return (
-      console.log(this.props.shelvesProp)
+      {console.log(this.props.shelvesProp)}
         <div className="bookshelf">
           <h2 className="bookshelf-title">{shelf}</h2>
           <div className="bookshelf-books">
