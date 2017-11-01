@@ -15,9 +15,9 @@ class Shelf extends Component {
             <ol className="books-grid">
               <li>
               </li>
-            <ol />
+            </ol>
           </div>
-        <div />
+        </div>
       ))}
     )
   }
