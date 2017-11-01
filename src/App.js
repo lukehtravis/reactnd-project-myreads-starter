@@ -24,7 +24,7 @@ class BooksApp extends React.Component {
           </div>
           <div className="list-books-content">
             <div>
-              <Shelf shelves={this.state.shelf} />
+              <Shelf shelvesProp={this.state.shelves} />
             </div>
           </div>
         </div>

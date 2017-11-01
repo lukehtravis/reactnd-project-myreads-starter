@@ -8,7 +8,7 @@ class Shelf extends Component {
 
   render() {
     return (
-      {this.props.shelves.map((shelf) => (
+      {this.props.shelvesProp.map((shelf) => (
         <div className="bookshelf">
           <h2 className="bookshelf-title">{shelf}</h2>
           <div className="bookshelf-books">
