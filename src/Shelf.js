@@ -5,7 +5,7 @@ class Shelf extends Component {
 
   render() {
     return (
-      {this.props.shelvesProp.map((shelf) => (
+      console.log(this.props.shelvesProp)
         <div className="bookshelf">
           <h2 className="bookshelf-title">{shelf}</h2>
           <div className="bookshelf-books">
@@ -15,7 +15,7 @@ class Shelf extends Component {
             </ol>
           </div>
         </div>
-      ))}
+
     )
   }
 }
